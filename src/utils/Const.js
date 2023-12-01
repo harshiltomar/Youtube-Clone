@@ -2,4 +2,10 @@ export const HAMBURGERMENU= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAA
 
 export const YOUTUBELOGO= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png";
 
-export const USERICON= "https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
+export const USERICON= "https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png";
+
+//limit of 24 hour
+
+const GOOGLE_API_KEY= "AIzaSyCRvP2ctGIGr6Pibw21JSsamzXF-_A7xMc"
+
+export const YOUTUBE_VIDEOS_API= "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key="+ GOOGLE_API_KEY;
